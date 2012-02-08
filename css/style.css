@@ -67,7 +67,6 @@ header {
 	padding:20px 0;
 	opacity:0.6;
 	filter: alpha(opacity = 50);
-	/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
 	background-color:#fff;
 	zoom:1;
 }
@@ -75,6 +74,27 @@ nav ul li a {
 	font-size:1.5em;
 	font-weight:bold;
 }
+nav ul li.selected a {
+	padding:9px 21px;
+	border:1px solid #5f8c21;
+	border-radius:6px;
+	background-color:#78c21b;
+	background-image:url(images/fallback-gradient.png);
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#7ac31d), to(#afe46e));
+	background-image:-webkit-linear-gradient(top, #7ac31d, #afe46e);
+	background-image:-moz-linear-gradient(top, #7ac31d, #afe46e);
+	background-image:-ms-linear-gradient(top, #7ac31d, #afe46e);
+	background-image:-o-linear-gradient(top, #7ac31d, #afe46e);
+}
+
+
+
+
+
+
+
+
+
 
 
 
