@@ -22,7 +22,7 @@ h3 {
 p {
 	padding:0 0 26px 0;
 	font-size:1.2em;
-	line-height:1.3em;
+	line-height:1.4em;
 }
 a{
 	text-decoration:none;
@@ -37,17 +37,6 @@ a img {
 img{
 	border:none;
 }
-blockquote{
-	padding:24px 0 0 0;
-	font-size:1.4em;
-	font-style:italic;
-}
-cite{
-	font-size:1.2em;
-	font-weight:bold;
-	font-style:normal;
-	text-align:right;
-}
 ul { 
 	margin:0;
 	padding:0;
@@ -55,6 +44,7 @@ ul {
 }
 ul li {
 	float:left;
+	font-size:1.2em;
 } 
 
 /* ================================
@@ -70,12 +60,16 @@ header {
 	background-color:#fff;
 	zoom:1;
 }
-nav ul li a {
-	font-size:1.5em;
+header ul li a {
+	display:block;
+	padding:9px 21px;
+	font-size:1.2em;
 	font-weight:bold;
 }
-nav ul li.selected a {
-	padding:9px 21px;
+header ul li:last-child a {
+	padding:0;
+} 
+header ul li.selected a {
 	border:1px solid #5f8c21;
 	border-radius:10px;
 	color:#fff;
@@ -85,11 +79,72 @@ nav ul li.selected a {
 	background:-moz-linear-gradient(top, #AFE46E 0%, #8FD03E 80%, #7AC31D 100%);
 }
 
+/* ================================
+   Main 
+=================================*/
+#main h2 {
+	padding:0;
+}
+#main h3 {
+	padding:0 0 24px 0;
+	font-size:1.4em;
+	font-weight:normal;
+}
+.moreLink {
+	padding:0 0 0 10px;
+	background:transparent url("../images/arrowLink.gif") no-repeat scroll left center;
+}
 
+/* ================================
+   Testimonials 
+=================================*/
+#testimonials {
+	position:relative;
+	padding:15px 0 22px 0;
+	background-color:#ededed;
+    background-image: url(images/fallback-gradient.png);
+    background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#d8d8d8));
+    background-image:-webkit-linear-gradient(top, #ededed, #d8d8d8);
+    background-image:-moz-linear-gradient(top, #ededed, #d8d8d8);
+    background-image:-ms-linear-gradient(top, #ededed, #d8d8d8);
+    background-image:-o-linear-gradient(top, #ededed, #d8d8d8);
+	box-shadow:0 4px 6px 0 #9e9e9e;
+	z-index:10;
+}
+blockquote{
+	padding:24px 48px 0 34px;
+	font-size:1.4em;
+	line-height:1.4em;
+	font-style:italic;
+	background:transparent url("../images/quoteOpen.png") no-repeat scroll 0 0;
+}
+cite{
+	display:block;
+	padding:26px 48px 0 0;
+	font-size:1.2em;
+	font-weight:bold;
+	font-style:normal;
+	text-align:right;
+	background:transparent url("../images/quoteClose.png") no-repeat scroll right top;
+}
 
-
-
-
+/* ================================
+   Footer 
+=================================*/
+footer {
+	padding:30px 0;
+	z-index:1;
+	background:url("../images/footer-bk.jpg") no-repeat scroll center top;
+}
+footer ul li a {
+	margin:0 7px 0 0;
+	padding:0 7px 0 0;
+	border-right:1px solid #1f7306;
+	color:#4c4c4c
+}
+#socialMedia {
+	text-align:right;
+}
 
 
 
