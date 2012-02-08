@@ -77,17 +77,13 @@ nav ul li a {
 nav ul li.selected a {
 	padding:9px 21px;
 	border:1px solid #5f8c21;
-	border-radius:6px;
+	border-radius:10px;
+	color:#fff;
 	background-color:#78c21b;
 	background-image:url(images/fallback-gradient.png);
-	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#7ac31d), to(#afe46e));
-	background-image:-webkit-linear-gradient(top, #7ac31d, #afe46e);
-	background-image:-moz-linear-gradient(top, #7ac31d, #afe46e);
-	background-image:-ms-linear-gradient(top, #7ac31d, #afe46e);
-	background-image:-o-linear-gradient(top, #7ac31d, #afe46e);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#AFE46E), to(#7AC31D), color-stop(.8,#8FD03E));
+	background:-moz-linear-gradient(top, #AFE46E 0%, #8FD03E 80%, #7AC31D 100%);
 }
-
-
 
 
 
