@@ -53,6 +53,9 @@ ul {
 	padding:0;
 	list-style:none;  
 }
+ul li {
+	float:left;
+} 
 
 /* ================================
    Header 
@@ -61,8 +64,16 @@ header {
 	background:url("../images/header-bk.jpg") no-repeat scroll center top;
 }
 #top {
+	padding:20px 0;
 	opacity:0.6;
+	filter: alpha(opacity = 50);
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
 	background-color:#fff;
+	zoom:1;
+}
+nav ul li a {
+	font-size:1.5em;
+	font-weight:bold;
 }
 
 
