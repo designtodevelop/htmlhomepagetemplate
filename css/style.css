@@ -17,7 +17,9 @@ h2 {
 	color:#32a510;
 }
 h3 {
+	padding:0 0 24px 0;
 	font-size:1.4em;
+	font-weight:normal;
 }
 p {
 	padding:0 0 26px 0;
@@ -56,7 +58,7 @@ header {
 #top {
 	padding:20px 0;
 	opacity:0.6;
-	filter: alpha(opacity = 50);
+	filter:alpha(opacity = 50);
 	background-color:#fff;
 	zoom:1;
 }
@@ -70,8 +72,7 @@ header ul li.selected a {
 	border:1px solid #5f8c21;
 	border-radius:10px;
 	color:#fff;
-	background-color:#78c21b;
-	background-image:url("../images/navSelected-bk.gif");
+	background:#78c21b url("../images/navSelected-bk.gif") repeat-x 0 0;
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#AFE46E), to(#7AC31D), color-stop(.8,#8FD03E));
 	background:-moz-linear-gradient(top, #AFE46E 0%, #8FD03E 80%, #7AC31D 100%);
 }
@@ -143,8 +144,7 @@ a.button {
 	border:1px solid #ff914f;
 	border-radius:6px;
 	color:#fff;
-	background-color:#ff8200;
-	background-image:url("../images/sliderButton-bk.gif");
+	background:#ff8200 url("../images/sliderButton-bk.gif") repeat-x 0 0;
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffbd1c), to(#ff9800), color-stop(.8,#ff8300));
 	background:-moz-linear-gradient(top, #ffbd1c 0%, #ff9800 80%, #ff8300 100%);
 	box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.4);
@@ -249,11 +249,6 @@ a.nivo-prevNav {
 #main h2 {
 	padding:0;
 }
-#main h3 {
-	padding:0 0 24px 0;
-	font-size:1.4em;
-	font-weight:normal;
-}
 .moreLink {
 	padding:0 0 0 10px;
 	background:transparent url("../images/arrowLink.gif") no-repeat scroll left center;
@@ -265,13 +260,10 @@ a.nivo-prevNav {
 #testimonials {
 	position:relative;
 	padding:15px 0 22px 0;
-	background-color:#ededed;
-    background-image: url(images/fallback-gradient.png);
+    background:#d8d8d8 url("../images/testimonials-bk.gif") repeat-x scroll 0 0;
     background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#d8d8d8));
     background-image:-webkit-linear-gradient(top, #ededed, #d8d8d8);
     background-image:-moz-linear-gradient(top, #ededed, #d8d8d8);
-    background-image:-ms-linear-gradient(top, #ededed, #d8d8d8);
-    background-image:-o-linear-gradient(top, #ededed, #d8d8d8);
 	box-shadow:0 4px 6px 0 #9e9e9e;
 	z-index:10;
 }
